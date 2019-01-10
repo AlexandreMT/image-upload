@@ -10,6 +10,7 @@ Vue.use(Toasted)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 let Upform = Vue.component('upload-form', require('./components/UploadForm.vue').default);
+Vue.component('custom-avatar-editor', require('./components/vue-avatar.vue').default);
 
 import SaveImage from './components/SaveImage';
 
